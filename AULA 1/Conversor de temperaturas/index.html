@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Seja bem vindo ao Conversor de temperaturas</h1>
+
+        <div class="farenheit">
+            <p>Digite quantos graus celcius você deseja converter para farenheit.</p>
+            <label for="farenheit">Digite aqui: </label>
+            <input type="number" name="farenheit" id="getFarenheit" value="">
+            <button onclick="calcularFarenheit()">calcular</button>
+            <p id="res1"></p>
+        </div>
+
+        <div class="celcius">
+            <p>Digite quantos farenheit você deseja converter para graus celcius.</p>
+            <label for="celcius">Digite aqui: </label>
+            <input type="number" name="celcius" id="getCelcius" value="">
+            <button onclick="calcularCelcius()">calcular</button>
+            <p id="res2"></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
